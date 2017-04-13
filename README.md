@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+### 植保作业 V3.6.1 更新内容
+[XAircraft](http://www.xaircraft.com)
+#### 优化
++ 蓝色的起始线与橙色的返航线现在不止会对障碍物避障，还会沿边界内部避障了。但大家还是要注意安全。
 
-You can use the [editor on GitHub](https://github.com/xiaoyanqiang/xiaoyanqiang.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### 修正
++ 修正多处内容没有显示的问题。
++ 修正螺旋航线地块不显示完成百分比的问题。
++ 修正飞行任务状态里，显示螺旋航线进度的显示错误。
++ 修正重置A2后，导致闪退的问题。
++ 修正模块信息里P20 v2.5的无人机会提示P20 2017的定位模块的固件版本号。
++ 修正P20 v2.5由于固件版本限制导致无法作业的问题。
++ 修正雾化值显示错误的问题。
++ 修正喷洒量的显示。
++ 修正启用地图“跟随无人机”按钮后，无人机旋转时，地图没有旋转。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### 更改
++ 辅助点的最低高度改为2米。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiaoyanqiang/xiaoyanqiang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### 增加
++ 增加两个用户提示，无人机飞行任务按钮、“仿地飞行”已放到飞行高度里设置。
++ 增加在规划螺旋航线时，已完成的螺旋点会在右上角显示一个绿色图标。
